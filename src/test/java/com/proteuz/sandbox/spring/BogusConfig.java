@@ -11,7 +11,7 @@ import javax.annotation.Resource;
 import static com.google.common.base.Preconditions.checkNotNull;
 
 @Configuration
-@ComponentScan("no.bbs.anvisning.config")
+@ComponentScan("com.proteuz.sandbox.spring")
 public class BogusConfig {
     @Resource
     private ServiceA serviceA;
